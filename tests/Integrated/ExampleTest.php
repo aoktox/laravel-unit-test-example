@@ -17,13 +17,13 @@ class ExampleTest extends TestCase
     public function testBasicExample()
     {
         $this->visit('/')
-             ->see('Laravel 5');
+             ->see('Laravel 6');
     }
 
     public function providerAllUrisWithResponseCode()
     {
         return [
-            ['/', 200, 'Laravel 5'],
+            ['/', 404, 'Laravel 5'],
             ['/place/CreditCard', 200, 'Checkout for CreditCard with total 95'],
             ['/place/CreditCard/me@mydomain.com', 200, 'Checkout for CreditCard with total 95'],
             ['/place/Cash', 200, 'Checkout for Cash with total 100'],
