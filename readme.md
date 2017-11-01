@@ -1,6 +1,7 @@
 ## Laravel Unit testing example
 
 [![Build Status](https://travis-ci.org/geshan/laravel-unit-test-example.svg?branch=master)](https://travis-ci.org/geshan/laravel-unit-test-example)
+[ ![Codeship Status for aoktox/laravel-unit-test-example](https://app.codeship.com/projects/8d07abb0-9afd-0135-ab68-323f5ed96714/status?branch=master)](https://app.codeship.com/projects/252547)
 
 Usually I see tutorials to tests Laravel which are just functional tests, I think unit testing should be given priority too. Done for this blog [post](http://bit.ly/laravel-unit-test).
 
