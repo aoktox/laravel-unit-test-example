@@ -25,7 +25,6 @@ PHPUnit is used to write the unit tests, to run the tests run the following comm
 ```
 
 ## Docker with virtual host
-
 To run with docker and nginx proxy at virtual host laravel.dev do the following steps
 
 1. Add `laravel.dev` to your `/etc/hosts` with `sudo echo '120.0.0.1 laravel.dev' >> /etc/hosts`
