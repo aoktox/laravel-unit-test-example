@@ -5,6 +5,7 @@
 
 Usually I see tutorials to tests Laravel which are just functional tests, I think unit testing should be given priority too. Done for this blog [post](http://bit.ly/laravel-unit-test).
 
+
 ## Clone and Run
 
 To clone and run this locally do the following:
